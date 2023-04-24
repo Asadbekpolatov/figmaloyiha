@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Line {
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+
+.Line .left1 {
+    width: 50%;
+    padding: 30px 30px;
+    background-color: #DBFF73;
+
+
+}
+
+.Line .right1 {
+    width: 50%;
+    height: 900px;
+    background-color: black;
+    padding: 30px 30px;
+
+}
+
+
+.Line .right1 h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.left1 h1 {
+
+    font-size: 40px;
+
+}
+
+.left1 p {
+    margin-top: 300px;
+    font-size: 20px;
+    width: 550px;
+}
+
+.right1 .inputs {
+    font-size: 20px;
+    /* width: 550px; */
+}
+
+.Line .right1 .inputs {
+    margin-top: 300px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputs input {
+    display: flex;
+    /* width: 200px; */
+    height: 35px;
+    background-color: black;
+    border: none;
+    border-bottom: 2px solid rgb(55, 54, 54);
+}
+
+
+.right1 button {
+    width: 140px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.inputs1 {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputs2 {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn button:nth-child(1) {
+    width: 140px;
+    height: 40px;
+    background-color: navy;
+    border: none;
+    color: white;
+}
+
+
+.btn {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn button {
+    width: 140px;
+    border: none;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+@media (max-width:500px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .Line {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 900px;
+        border: 2px solid red;
+    }
+
+    .Line .left1 {
+        width: 100%;
+        background-color: #DBFF73;
+        padding: 30px 30px;
+
+
+    }
+
+    .Line .right1 {
+        width: 100%;
+        background-color: black;
+        padding: 30px 30px;
+        height: 900px;
+
+    }
+
+
+    .Line .right1 h1 {
+        color: white;
+        font-size: 50px;
+    }
+
+    .left1 h1 {
+
+        font-size: 50px;
+        margin-left: 25px;
+
+    }
+
+    .left1 p {
+        margin-top: 100px;
+        font-size: 21px;
+        width: 85%;
+        margin-left: 25px;
+    }
+
+    .right1 .inputs {
+        font-size: 20px;
+        /* width: 550px; */
+    }
+
+    .Line .right1 .inputs {
+        margin-top: 100px;
+    }
+
+    .inputs {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .inputs input {
+        display: flex;
+        width: 400px;
+        flex-direction: column;
+        height: 45px;
+        background-color: black;
+        border: none;
+        border-bottom: 2px solid rgb(55, 54, 54);
+        margin-left: -150px;
+    }
+
+
+    .right1 button {
+        width: 400px;
+        height: 60px;
+        margin-top: 40px;
+        border-radius: 5px;
+        margin-left: -5px;
+        margin-top: 80px;
+    }
+
+    .inputs1 {
+        width: 250px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .inputs2 {
+        width: 250px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .btn button:nth-child(1) {
+        width: 340px;
+        margin-left: 80px;
+        height: 50px;
+        background-color: navy;
+        border: none;
+        color: white;
+    }
+
+
+    .btn {
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .btn button {
+        width: 340px;
+        border: none;
+        background-color: white;
+        border-radius: 5px;
+        margin-left: 80px;
+        height: 50px;
+        margin-top: 20px;
+    }
+}
